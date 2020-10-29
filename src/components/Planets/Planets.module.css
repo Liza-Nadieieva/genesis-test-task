@@ -1,0 +1,12 @@
+.wrapper{
+  grid-area: content;
+}
+.planet_card{
+  width:200px;
+  height:160px;
+  border: 1px solid black;
+  float: left;
+  margin: 20px 40px 10px 40px;
+  background-color: #F8C433;
+  cursor: pointer;
+}
