@@ -1,0 +1,55 @@
+.header{
+  grid-area: header;
+  background-color: black;
+}
+.header__title{
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-left:130px;
+  margin-top:40px;
+  text-transform: uppercase;
+}
+.logo_wrapper{
+  height:40px;
+  position: absolute;
+  right:300px;
+  margin-top:-20px;
+}
+.logo_wrapper h2{
+  margin-top: -10px;
+  margin-left: 15px;
+}
+.logo_star{
+  height:12px;
+  width:12px;
+  background-color: #EE7F36;
+  border-radius: 50%;
+}
+.star_1{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background-color: #F8C433;
+  position: absolute;
+  left:20%;
+  top:5%;
+}
+.star_2{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  background-color: #F8C433;
+  position: absolute;
+  right: 100px;
+  top:2%;
+}
+.star_3{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background-color: #F8C433;
+  position: absolute;
+  left:5%;
+  top:8%;
+}

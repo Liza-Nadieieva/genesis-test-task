@@ -1,0 +1,12 @@
+body{
+  margin:0;
+}
+.container-wrapper{
+  display: grid;
+  grid-template-areas:
+    'header'
+    'content';
+  grid-template-rows: 140px 1fr;
+  grid-gap: 10px;
+  height: 100vh;
+}
